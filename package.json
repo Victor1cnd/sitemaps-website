@@ -1,0 +1,24 @@
+{
+  "name": "sitemaps-website",
+  "version": "1.0.0",
+  "description": "Luxorita Sitemaps display via Cloudflare Workers - Live from Victor1cnd/sitemaps",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "sitemaps",
+    "luxorita",
+    "jewelry"
+  ],
+  "author": "Victor1cnd",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.50.0"
+  }
+}
